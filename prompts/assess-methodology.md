@@ -4,6 +4,11 @@ id: assess-methodology
 title: Assess Methodology
 description: "Evaluates a research methodology for rigour and appropriateness"
 tags: [Production, Academic, Research]
+context_params:
+  source:
+    label: "Research Gap Analysis"
+    description: "The research gap analysis supplied by the upstream step. The body feeds it to BOTH labelled inputs — research question and proposed methodology — which is what the original did by naming one step twice."
+    required: true
 inputs:
   field_specific_standards:
     label: "Field Standards"
@@ -35,8 +40,8 @@ You are a research methodologist. Evaluate the methodology described below again
 
 ### Inputs
 
-- **Research question:** {{steps.Research Gap Identification.output}}
-- **Proposed methodology:** {{steps.Research Gap Identification.output}}
+- **Research question:** {{step.context.source}}
+- **Proposed methodology:** {{step.context.source}}
 - **Field-specific standards:** {{input.field_specific_standards}}
 
 ## Formatting Rules

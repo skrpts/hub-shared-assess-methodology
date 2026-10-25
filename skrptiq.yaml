@@ -3,7 +3,7 @@ id: "258b7728-47d6-487c-914a-7dcfa0ce4dcb"
 name: "assess-methodology"
 display_name: "Assess Methodology"
 description: "Evaluates a research methodology for rigour and appropriateness"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T13:31:44.521Z"
+  scanned_at: "2026-10-25T17:09:08.565Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
